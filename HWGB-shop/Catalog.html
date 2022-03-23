@@ -6,6 +6,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/912c9bcd45.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="iconfont.css">
 </head>
 
 <body>
@@ -74,64 +75,126 @@
       </div>  
     </div> 
   </div>
-  <div class="top__info">
-    <div class="container__banner">
-        <div class="top__info__left">
-        </div>
-      <div class="top__info__right">
-        <div class="top__info__contant">
-          <div class="top__line"></div>
-          <div class="top__header">
-            <p class="banner__text__up">The brand</p>
-            <p class="banner__text__down">Of luxerious <span class="Color">fashion</span></p>
-          </div>
-        </div>
+
+  <div class="catalog__top__line">
+    <div class="container catalog__header__section">
+      <div class="top__line__left">new arrivals</div>
+      <div class="top__line__right">
+          <a href="Main.html" class="Top__Line__Breadcrumb">HOME</a>
+          /
+          <a href="#" class="Top__Line__Breadcrumb">MEN</a>
+          /
+          <a href="#" class="Top__Line__Breadcrumb">NEW ARRIVALS</a>   
       </div>
     </div>
   </div>
-  <div class="container navigation">
-    <div class="nav__up">
-      <div class="nav__card">
-          <a class="nav__link" href="#">
-            <div class="nav__flex">
-            <p class="nav__line__up">30% off</p>
-            <p class="nav__line__down">for women</p>
-            </div>
-          </a>
-      </div>
-      <div class="nav__card">
-        <a class="nav__link" href="#">
-          <div class="nav__flex">
-          <p class="nav__line__up">hot deal</p>
-          <p class="nav__line__down">for men</p>
-          </div>
-        </a>
-      </div>
-      <div class="nav__card">
-          <a class="nav__link" href="#">
-            <div class="nav__flex">
-            <p class="nav__line__up">new arrivals</p>
-            <p class="nav__line__down">for kids</p>
-          </div>
-          </a>
-      </div>
-    </div>
-    <div class="nav__down">
-      <a class="nav__link" href="#">
-        <div class="nav__flex">
-          <p class="nav__line__up">LUXIROUS & TRENDY</p>
-          <p class="nav__line__down">ACCESORIES</p>
-          </div>
-      </a>
-    </div>
-  </div>  
 
   <div class="item__sec">
     <div class="container">
-      <h3 class="item__sec__header">Feutured Items</h3>
-      <p class="item__sec__text">Shop for items based on what we featured in this week</p>
-      <div class="item__box">
-        <div class="item">
+
+      <div class="catalog__filter__sec">
+            <div class="cat__filter">
+              <div class="cat__filter__function">
+                <p class="icon-Filter_bar ">Filter</p>
+                <div class="cat__filter__accordion">
+                  <div class="cat__filter__category">
+                    <input class="cat__filter__check" type="checkbox" id="filter_check_1">
+                    <label class="cat__filter__title" for="filter_check_1">CATEGORY</label>
+                    <div class="cat__line__menu">
+                        <ul class="cat__menu__list">
+                          <li><a href="#">Accessories</a></li>
+                          <li><a href="#">Bags</a></li>
+                          <li><a href="#">Denim</a></li>
+                          <li><a href="#">Hoodies & Sweatshirts</a></li>
+                          <li><a href="#">Jackets & Coats</a></li>
+                          <li><a href="#">Polos</a></li>
+                          <li><a href="#">Shirts</a></li>
+                          <li><a href="#">Shoes</a></li>
+                          <li><a href="#">Sweaters & Knits</a></li>
+                          <li><a href="#">T-Shirts</a></li>
+                          <li><a href="#">Tanks</a></li>
+                        </ul>
+                    </div>
+                  </div>
+                  
+                  <div class="cat__filter__category">
+                    <input class="cat__filter__check" type="checkbox" id="filter_check_2">
+                    <label class="cat__filter__title" for="filter_check_2">BRANDS</label>
+                    <div class="cat__line__menu">
+                      <ul class="cat__menu__list">
+                          <li><a href="#">BRAND</a></li>
+                          <li><a href="#">BRAND</a></li>
+                          <li><a href="#">BRAND</a></li>
+                          <li><a href="#">BRAND</a></li>
+                          <li><a href="#">BRAND</a></li>
+                          <li><a href="#">BRAND</a></li>
+                          <li><a href="#">BRAND</a></li>
+                        </ul>
+                    </div>
+                  </div>
+                  
+                  <div class="cat__filter__category">
+                    <input class="cat__filter__check" type="checkbox" id="filter_check_3">
+                    <label class="cat__filter__title" for="filter_check_3">DESIGNER</label>
+                    <div class="cat__line__menu">
+                      <ul class="cat__menu__list">
+                          <li><a href="#">Design</a></li>
+                          <li><a href="#">Design</a></li>
+                          <li><a href="#">Design</a></li>
+                          <li><a href="#">Design</a></li>
+                          <li><a href="#">Design</a></li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              <!-- end of menu -->
+              </div>
+            </div>
+            
+            <div class="cat__filter">
+              <ul class="filter__panels">
+                <li class="icon-Vector_Down size__filter__function">TRENDING NOW</li>
+                <li class="icon-Vector_Down size__filter__function">SIZE
+                  <div class="size__filter">
+                     <ul class="filter__size__list">
+                       <li>
+                         <input class="size__list__box" type="checkbox" id="XS">
+                         <label class="size__list__check" for="XS">XS</label>
+                       </li>
+                   
+                       <li>
+                         <input class="size__list__box" type="checkbox" id="S">
+                         <label class="size__list__check_2" for="S">S</label> 
+                       </li>
+                   
+                       <li>
+                         <input class="size__list__box" type="checkbox" id="M">
+                         <label class="size__list__check_2" for="M">M</label>
+                       </li>
+                   
+                       <li>
+                         <input class="size__list__box" type="checkbox" id="L">
+                         <label class="size__list__check_2" for="L">L</label>
+                       </li>
+                     </ul> 
+                   </div> 
+                </li>
+                <li class="icon-Vector_Down size__filter__function">PRICE
+                  <div class="price__box">
+                    <p class="range__menu__text">Sort by Price:</p>
+                    <input type="range" name="myInput" step="1" value="0" min="0" max="100">
+                    </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="cat__filter"></div>
+
+        </div>
+
+     <div class="item__box">
+       
+      <div class="item">
         <a class="item__link" href="#">
           <img class="item__pic" src="IMG/man_Item.png" alt="item">
           <div class="text-box">
@@ -142,10 +205,10 @@
         </a>
         
         <div class="card__box">
-        <a class="card__link" href="card">
-        <img src="IMG/ShCa-ic.svg" alt="buy">
-        <p>Add to card</p>
-        </a>
+          <a class="card__link" href="card">
+          <img src="IMG/ShCa-ic.svg" alt="buy">
+          <p>Add to card</p>
+          </a>
         </div>
         
           </div>
@@ -153,7 +216,7 @@
         <div class="item">
           <a class="item__link" href="#">
             <div class="item__pic__width">
-            <img src="IMG/Item_2.png" alt="item" style="width: auto;">
+            <img src="IMG/cat_man_2.png" alt="item" style="width: auto;">
             </div>
             <div class="text-box">
               <p class="text__desk">ELLERY X M'O CAPSULE</p>
@@ -168,8 +231,7 @@
           <p>Add to card</p>
           </a>
           </div>
-          
-          </div>
+        </div>
           
         <div class="item">
             <a class="item__link" href="#">
@@ -187,8 +249,7 @@
             <p>Add to card</p>
             </a>
             </div>
-            
-          </div>
+         </div>
             
         <div class="item">
             <a class="item__link" href="#">
@@ -205,32 +266,30 @@
               <img src="IMG/ShCa-ic.svg" alt="buy">
               <p>Add to card</p>
               </a>
-            </div>
-              
+            </div> 
           </div>
 
         <div class="item">
-                <a class="item__link" href="#">
-                  <img class="item__pic" src="IMG/Item_5.png" alt="item">
-                  <div class="text-box">
-                    <p class="text__desk">ELLERY X M'O CAPSULE</p>
-                    <p class="text__item">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="item__price">$ 52.00</p>
-                  </div>
-                </a>
-                
-                <div class="card__box">
-                <a class="card__link" href="card">
-                <img src="IMG/ShCa-ic.svg" alt="buy">
-                <p>Add to card</p>
-                </a>
+              <a class="item__link" href="#">
+                <img class="item__pic" src="IMG/Cat_man_5.png" alt="item">
+                <div class="text-box">
+                  <p class="text__desk">ELLERY X M'O CAPSULE</p>
+                  <p class="text__item">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                  <p class="item__price">$ 52.00</p>
                 </div>
+              </a>
                 
-          </div>
+              <div class="card__box">
+              <a class="card__link" href="card">
+              <img src="IMG/ShCa-ic.svg" alt="buy">
+              <p>Add to card</p>
+              </a>
+              </div>  
+         </div>
 
         <div class="item">
                   <a class="item__link" href="#">
-                    <img class="item__pic" src="IMG/Item_6.png" alt="item">
+                    <img class="item__pic" src="IMG/cat_man_6.png" alt="item">
                     <div class="text-box">
                       <p class="text__desk">ELLERY X M'O CAPSULE</p>
                       <p class="text__item">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
@@ -246,8 +305,74 @@
                   </div>
           </div>
 
+        <div class="item">
+            <a class="item__link" href="#">
+              <img class="item__pic" src="IMG/cat_man_7.png" alt="item">
+              <div class="text-box">
+                <p class="text__desk">ELLERY X M'O CAPSULE</p>
+                <p class="text__item">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                <p class="item__price">$ 52.00</p>
+              </div>
+            </a>
+            
+            <div class="card__box">
+            <a class="card__link" href="card">
+            <img src="IMG/ShCa-ic.svg" alt="buy">
+            <p>Add to card</p>
+            </a>
+            </div>
+          </div>
+
+        <div class="item">
+            <a class="item__link" href="#">
+              <img class="item__pic" src="IMG/cat_man_8.png" alt="item">
+              <div class="text-box">
+                <p class="text__desk">ELLERY X M'O CAPSULE</p>
+                <p class="text__item">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                <p class="item__price">$ 52.00</p>
+              </div>
+            </a>
+            
+            <div class="card__box">
+            <a class="card__link" href="card">
+            <img src="IMG/ShCa-ic.svg" alt="buy">
+            <p>Add to card</p>
+            </a>
+            </div>
+          </div>
+
+        <div class="item">
+      <a class="item__link" href="#">
+        <img class="item__pic" src="IMG/cat_man_9.png" alt="item">
+        <div class="text-box">
+          <p class="text__desk">ELLERY X M'O CAPSULE</p>
+          <p class="text__item">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+          <p class="item__price">$ 52.00</p>
         </div>
-      <a href="#" class="sec__button">Browse All Product</a>
+      </a>
+      
+      <div class="card__box">
+      <a class="card__link" href="card">
+      <img src="IMG/ShCa-ic.svg" alt="buy">
+      <p>Add to card</p>
+      </a>
+      </div>
+          </div>
+
+        </div>
+
+        <div class="pagination">
+          <a href="#"><i class="fa-solid fa-angle-left"></i></a>
+          <a class="active" href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">6</a>
+          <a href="#">....</a>
+          <a href="#">20</a>
+          <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+        </div>
 
       </div>
     </div>

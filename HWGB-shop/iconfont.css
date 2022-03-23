@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'HWGB-shop';
+  src:  url('fonts/HWGB-shop.eot?l670wa');
+  src:  url('fonts/HWGB-shop.eot?l670wa#iefix') format('embedded-opentype'),
+    url('fonts/HWGB-shop.ttf?l670wa') format('truetype'),
+    url('fonts/HWGB-shop.woff?l670wa') format('woff'),
+    url('fonts/HWGB-shop.svg?l670wa#HWGB-shop') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::after, [class*="icon-"]::after {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'HWGB-shop' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Filter_bar:after {
+  content: "\e900";
+  font-size: 10px;
+  padding-left: 11px;
+  vertical-align: 2px;
+}
+.icon-Vector_Down:after {
+  content: "\e901";
+  font-size: 9px;
+  padding-left: 10px;
+}
